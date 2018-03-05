@@ -1,0 +1,14 @@
+img{
+	width: 460px;
+	height: 400px;
+}
+
+th{
+	font-size: 2em;
+	font-family: 'Roboto', sans-serif;
+	background-color:#FFD700;
+}
+
+article{
+	overflow-x: auto;
+}

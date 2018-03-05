@@ -1,0 +1,76 @@
+<!Doctype html>
+		<html="en">
+			<head>
+				<meta name="viewport" content="width=device-width, initial-scale=1">
+				
+				<link rel="stylesheet" type="text/css" href="css/mainstyle.css" />
+				
+				<link rel="stylesheet" type="text/css" href="css/flexslider.css" />
+				
+				<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"/>
+				
+				<link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet"/>
+				
+				<title> Martin Jimenez 3D Art Portfolio </title>
+			</head>
+			
+			<body>
+				<div class="container" id="wrapper">
+					<div id="header">
+					<img src="images/MyIconMJ_V2.png" class="logo">
+					<h1> Martin Jimenez &nbsp; &nbsp; 3D Artist </h1>
+						<nav>
+							<ul>
+								<li id="main"><font color="black"> Home </font></a></li>
+								<li><a href="portfolio.html"> Portfolio </a> </li>
+								<li><a href="showcase.html"> Showcase </a></li>
+								<li><a href="aboutContact.html"> About/Contact </a></li>
+							</ul>
+						</nav>
+						<br/>
+					</div>
+					
+							<hr class="style"></hr>					
+					<br />
+					
+				<div class="slideshow">
+					<div class="flexslider">
+						<ul class="slides">
+							<li><img src="images/Lucille1.jpg">	</li>
+							<li><img src="images/Lucille2.jpg">	</li>
+							<li><img src="images/lightsaber1.jpg">	</li>
+							<li><img src="images/lightsaber2.jpg">	</li>
+							<li><img src="images/forcenature1.jpg">	</li>
+							
+						</ul>
+					</div>
+				</div>			
+				
+		
+				</div>
+				
+				<!--jquery-->
+				<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+				<script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.min.js">\x3C/script>')</script>
+				
+				 <!-- FlexSlider -->
+				<script defer src="js/jquery.flexslider.js"></script>
+				
+				<!--FlexSlider Javascript code for animation -->
+				<script type="text/javascript">
+				$(function(){
+				  SyntaxHighlighter.all();
+				});
+				$(window).load(function(){
+				  $('.flexslider').flexslider({
+					animation: "slide",
+					start: function(slider){
+					  $('body').removeClass('loading');
+					}
+				  });
+				});
+			  </script>
+					
+				
+			</body>
+		</html>
